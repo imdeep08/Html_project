@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ first section start ---------- */
+
+.header{
+    display: flex;
+    background-image: linear-gradient(360deg, #7edac375, #19654d);
+    border-bottom: 1px solid #6cb6af;
+    box-shadow: 0px 16px 12px #090202f7
+}
+.educationlogo{
+    width: 20%;
+    padding-left: 50px;
+    padding-top: 9px;
+}
+.educationlogo img{
+    width: 50px;
+    height: 50px;
+}
+.nav_menu{
+    width: 40%;
+}
+.nav_menu ul li {
+    display: inline-block;
+    padding: 25px;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: #6d1c1b;
+    font-family: sans-serif;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-delay: 0.01s;
+    transition-timing-function: linear;
+}
+.nav_menu ul li a:hover{
+    color:#ecb16c;
+}
+.nav_button{    
+    width: 40%;
+    padding-top: 18px;
+    padding-left: 100px;
+}
+.nav_button button{
+    padding: 8px 30px;
+    color: white;
+    font-weight: 100;
+    background-color: #671212f0;
+    border: 0px solid gray;
+    box-shadow: 0px 0px 22px 4px #c8d6afa8;
+    border-radius: 12px;
+}
+.nav_button button:hover
+{
+    cursor: pointer;
+    background-color: #00000042;
+    color: white;
+}
+#register
+{
+    margin-left: 20px;
+}
+/* ------------ first section end ---------- */
+
+/* ------------ second section start ------ */
+
+.banner
+{
+    position: relative;
+}
+.banner img
+{
+    width: 1263px;
+    height: 497px;
+    opacity: 0.6;
+}
+
+.login_form
+{
+    background-color: #cd323e59;
+    margin-left: 129px;
+    position: absolute;
+    top: 124px;
+    width: 482px;
+    border: 2px solid #80808024;
+    padding: 40px;
+    box-shadow: 2px 5px 6px #8080807a;
+    text-align: center;
+} 
+.login_form label
+{
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: cursive;
+    position: absolute;
+    left: 82px;
+}
+.login_form input
+{
+    margin-top: 22px;
+    border: 0px solid gray;
+    width: 320px;
+    line-height: 3;
+    border-radius: 9px;
+}
+.login_form button
+{
+    cursor: pointer;
+    margin-top: 27px;
+    border: 0px solid #313838;
+    width: 320px;
+    line-height: 3;
+    border-radius: 24px;
+    background-color: #f03a3a;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+.login_form button:hover
+{
+    color: #ffe52b;
+    background-color: #2e8b57d4;
+}
+/* ------------ second section end ------ */
+
+/* ------------ third section start ------ */
+.third_grid_section
+{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.meet_team_header
+{
+    padding-left: 66px;
+    padding-top: 50px;
+    float: left;
+}
+.meet_team
+{
+    width: 230%;
+    float: left;
+    font-size: 32px;
+    font-family: sans-serif;
+    position: relative;
+}
+.meet_team::after
+{
+    content: '';
+    position: absolute;
+    width: 193px;
+    height: 2px;
+    background-color: #f60909;
+    top: 77%;
+    left: 44%;
+    z-index: -1;
+}
+.about
+{
+    display: flex;
+    padding: 67px;
+    position: relative;
+    float: left;
+    padding-top: 42px;
+}
+.about img
+{
+    position: relative;
+    width: 350px;
+    height: 235px;
+}
+.about h5
+{
+    font-size: 15px;
+    color: black;
+    display: block;
+}
+.about img:hover 
+{
+    opacity: 0.5;
+}
+.about_team
+{
+    margin-left: 25px;
+}
+.readmore
+{
+    position: absolute;
+    right: 69px;
+    bottom: 70px;
+    cursor: pointer;
+    border: 0px solid red;
+    background-image: linear-gradient(250deg, #ff0808b5, #eede6c94);
+    color: #890505;
+    font-size: 15px;
+    width: 148px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 2px 3px 1px #931d1d8a;
+}
+.readmore:hover
+{
+    border: 0px solid red;
+    background-image: linear-gradient(250deg, #eede6c94, #ff0808b5);
+    color: #08020d;
+    box-shadow: 1px 2px 3px 2px #931d1d8a;
+}
