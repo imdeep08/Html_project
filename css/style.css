@@ -210,3 +210,99 @@
     color: #08020d;
     box-shadow: 1px 2px 3px 2px #931d1d8a;
 }
+/* ------------ third section end ------ */
+
+/* ------------ fourth section start ------ */
+
+
+.uper_container
+{
+    width: 50%;
+    position: relative;
+    margin: 50% auto;
+}
+.uper_container1
+{
+    width: 35%;
+    padding: top 20px;
+}
+#Tasks
+{
+    font-weight: 900;
+    font-size: 40px;
+}
+#lists
+{
+    margin-left: 10px;
+    opacity: 0.5;
+    font-size: 40px;
+}
+.uper_container2
+{
+    width: 30%;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#add_list
+{
+    position: absolute;
+    width: 86%;
+    top: 5px;
+    right: 0;
+    font-size: 22px;
+    opacity: 0.5;
+}
+.card1
+{
+    margin-top: 20px;
+    border: 1px solid rgb(244, 98, 7);
+    width: 30%;
+    height: 228px;
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px grey;
+}
+.card1 h1
+{
+    width: 85%;
+    border-bottom: 1px solid red;
+    position: absolute;
+    text-align: left;
+    top: 2px;
+    right: 0px;
+    font-size: 25px;
+}
+.card1 p
+{
+    width: 90%;
+    top: 30%;
+    position: absolute;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: deepskyblue;
+    text-decoration:line-through;
+}
+.card1 form
+{
+    margin-left: 31px;
+    position: absolute;
+    width: 72%;
+    text-align: left;
+    top: 53%;
+}
+.card1 input
+{
+    position: absolute;
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+}
+.card1 label
+{
+    position: absolute;
+    left: 23px;
+    top: -2px;
+}
