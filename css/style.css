@@ -306,3 +306,7 @@
     left: 23px;
     top: -2px;
 }
+.card_container
+{
+    display: grid;
+}
