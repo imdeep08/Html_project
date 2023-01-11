@@ -309,4 +309,5 @@
 .card_container
 {
     display: grid;
+    grid-template-columns: 30px;
 }
